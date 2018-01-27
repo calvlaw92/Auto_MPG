@@ -12,13 +12,13 @@ The columns attributes are “mpg”, “cylinders”, “displacement”, “ho
 The size of the entire dataset is 30KB. More descriptions and summaries of the dataset can be found on the accompanying notebook.
 
 **Solution Statement**<br/>
-A solution to this problem will be using several linear regression models.
+A solution to this problem will be using several linear regression models comparing weight, displacement, number of cylinders with acceleration.
 
 **Benchmark Model**<br/>
 Given that we seek a regression model a good naive benchmark would be to use the mean of the acceleration from the dataset.
 
 **Evaluation Metrics**<br/>
-We will use the R-squared metric and Mean Absolute Error to measure the success of our model.
+We will use the R-squared metric and Mean Absolute Error to measure the success of our models.
 
 **Resources**<br/>
 Wang, Y, Witten, H. 1997. Inducing Model Trees for Continuous Classes. University of Waikato.
